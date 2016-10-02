@@ -1,0 +1,79 @@
+{
+  "users" : [
+              {
+                "id": 0,
+                "user":"Cécile",
+                "block": [1]
+              },
+              {
+                "id": 1,
+                "user": "Christophe",
+                "block": [0]
+              },
+              {
+                "id": 2,
+                "user": "Martine",
+                "block": []
+              },
+              {
+                "id": 3,
+                "user": "Sylvie",
+                "block": []
+              },
+              {
+                "id": 4,
+                "user": "Francis",
+                "block": [5]
+              },
+              {
+                "id": 5,
+                "user": "Brigitte",
+                "block": [4]
+              },
+              {
+                "id": 6,
+                "user": "Anne-Laure",
+                "block": [7]
+              },
+              {
+                "id": 7,
+                "user": "Hadi",
+                "block": [6]
+              },
+              {
+                "id": 8,
+                "user": "Florence",
+                "block": [9]
+              },
+              {
+                "id": 9,
+                "user": "Le Pierre de Florence",
+                "block": [8]
+              },
+              {
+                "id": 10,
+                "user": "Quentin",
+                "block": []
+              },
+              {
+                "id": 11,
+                "user": "Lucie",
+                "block": []
+              },
+              {
+                "id": 12,
+                "user": "Pierre",
+                "block": []
+              },
+              {
+                "id": 13,
+                "user": "Ludo",
+                "block": [14]
+              },
+              {
+                "id": 14,
+                "user": "Samantha",
+                "block": [13]
+              }
+            ]
+}
