@@ -5,9 +5,7 @@ var list = require("../datas/users.json");
 
 const TSN_TableConfig = React.createClass({
   render: function() {
-
     var content = [];
-
 
     for (var i = 0; i < list.users.length; i++) {
       content.push(
