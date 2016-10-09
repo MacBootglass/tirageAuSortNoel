@@ -2,6 +2,7 @@ import React from 'react';
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import ActionReorder from 'material-ui/svg-icons/action/reorder';
+
 import TSN_IconMenu from './TSN_IconMenu';
 
 const TSN_AppBar = React.createClass({

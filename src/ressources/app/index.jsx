@@ -16,7 +16,7 @@ const muiTheme = getMuiTheme({
     primary1Color: redA700,
     primary2Color: redA400,
     primary3Color: grey400,
-    accent1Color: pinkA200,
+    accent1Color: redA700,
     accent2Color: grey100,
     accent3Color: grey500,
     textColor: darkBlack,
@@ -31,6 +31,8 @@ const muiTheme = getMuiTheme({
   }
 });
 
+var userList = require("../datas/users.json").users;
+
 var racine = document.getElementById('app');
 
 var selectTableConfig = function() {
@@ -41,7 +43,7 @@ var selectTableConfig = function() {
           selectTableConfig={selectTableConfig}
           selectTableTirage={selectTableTirage}
         />
-        <TSN_TableConfig/>
+        <TSN_TableConfig users={userList}/>
       </div>
     </MuiThemeProvider>,
   racine);
@@ -72,7 +74,7 @@ ReactDOM.render(
         selectTableConfig={selectTableConfig}
         selectTableTirage={selectTableTirage}
       />
-      <TSN_TableConfig/>
+      <TSN_TableConfig users={userList}/>
     </div>
   </MuiThemeProvider>,
 racine);

@@ -2,78 +2,78 @@
   "users" : [
               {
                 "id": 0,
-                "user":"Cécile",
-                "block": [1]
+                "name":"Cécile",
+                "constraint": [1]
               },
               {
                 "id": 1,
-                "user": "Christophe",
-                "block": [0]
+                "name": "Christophe",
+                "constraint": [0]
               },
               {
                 "id": 2,
-                "user": "Martine",
-                "block": []
+                "name": "Martine",
+                "constraint": []
               },
               {
                 "id": 3,
-                "user": "Sylvie",
-                "block": []
+                "name": "Sylvie",
+                "constraint": []
               },
               {
                 "id": 4,
-                "user": "Francis",
-                "block": [5]
+                "name": "Francis",
+                "constraint": [5]
               },
               {
                 "id": 5,
-                "user": "Brigitte",
-                "block": [4]
+                "name": "Brigitte",
+                "constraint": [4]
               },
               {
                 "id": 6,
-                "user": "Anne-Laure",
-                "block": [7]
+                "name": "Anne-Laure",
+                "constraint": [7]
               },
               {
                 "id": 7,
-                "user": "Hadi",
-                "block": [6]
+                "name": "Hadi",
+                "constraint": [6]
               },
               {
                 "id": 8,
-                "user": "Florence",
-                "block": [9]
+                "name": "Florence",
+                "constraint": [9]
               },
               {
                 "id": 9,
-                "user": "Le Pierre de Florence",
-                "block": [8]
+                "name": "Le Pierre de Florence",
+                "constraint": [8]
               },
               {
                 "id": 10,
-                "user": "Quentin",
-                "block": []
+                "name": "Quentin",
+                "constraint": []
               },
               {
                 "id": 11,
-                "user": "Lucie",
-                "block": []
+                "name": "Lucie",
+                "constraint": []
               },
               {
                 "id": 12,
-                "user": "Pierre",
-                "block": []
+                "name": "Pierre",
+                "constraint": []
               },
               {
                 "id": 13,
-                "user": "Ludo",
-                "block": [14]
+                "name": "Ludo",
+                "constraint": [14]
               },
               {
                 "id": 14,
-                "user": "Samantha",
-                "block": [13]
+                "name": "Samantha",
+                "constraint": [13]
               }
             ]
 }
