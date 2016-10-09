@@ -5,18 +5,18 @@ import ActionReorder from 'material-ui/svg-icons/action/reorder';
 import TSN_IconMenu from './TSN_IconMenu';
 
 const TSN_AppBar = React.createClass({
-  getDefaultProps: function() {
+  getInitialState: function() {
     return {
-      title:""
+      title:"Tirage au sort de Noël"
     }
   },
 
   render: function() {
     return (
       <AppBar
-        title={this.props.title}
+        title={this.state.title}
         iconElementLeft={<div/>}
-        iconElementRight={<TSN_IconMenu/>}
+        iconElementRight={<TSN_IconMenu selectTableConfig={this.props.selectTableConfig} selectTableTirage={this.props.selectTableTirage}/>}
       />
     );
   }
