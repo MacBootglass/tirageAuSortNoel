@@ -5,7 +5,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {fade} from 'material-ui/utils/colorManipulator';
 import { amberA400, amberA700, pinkA200, grey100, grey300, grey400, grey500, white, darkBlack, fullBlack } from 'material-ui/styles/colors';
-import AppGlob from './AppGlob';
+import TSN_Global from './TSN_Global';
 
 const muiTheme = getMuiTheme({
   fontFamily: 'Roboto, sans-serif',
@@ -34,6 +34,6 @@ var racine =  document.getElementById('app');
 
 ReactDOM.render(
   <MuiThemeProvider muiTheme={muiTheme}>
-    <AppGlob/>
+    <TSN_Global/>
   </MuiThemeProvider>,
   racine);
