@@ -6,9 +6,7 @@ import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {fade} from 'material-ui/utils/colorManipulator';
 import {redA400, redA700, pinkA200, grey100, grey300, grey400, grey500, white, darkBlack, fullBlack} from 'material-ui/styles/colors';
 
-import TSN_AppBar from './TSN_AppBar';
-import TSN_TableConfig from './TSN_TableConfig';
-import TSN_TableTirage from './TSN_TableTirage';
+import TSN_Global from './TSN_Global';
 
 const muiTheme = getMuiTheme({
   fontFamily: 'Roboto, sans-serif',
@@ -31,50 +29,6 @@ const muiTheme = getMuiTheme({
   }
 });
 
-var userList = require("../datas/users.json").users;
-
-var racine = document.getElementById('app');
-
-var selectTableConfig = function() {
-  ReactDOM.render(
-    <MuiThemeProvider muiTheme={muiTheme}>
-      <div>
-        <TSN_AppBar
-          selectTableConfig={selectTableConfig}
-          selectTableTirage={selectTableTirage}
-        />
-        <TSN_TableConfig users={userList}/>
-      </div>
-    </MuiThemeProvider>,
-  racine);
-}
-
-var selectTableTirage = function() {
-  ReactDOM.render(
-    <MuiThemeProvider muiTheme={muiTheme}>
-      <div>
-        <TSN_AppBar
-          selectTableConfig={selectTableConfig}
-          selectTableTirage={selectTableTirage}
-        />
-        <TSN_TableTirage/>
-      </div>
-    </MuiThemeProvider>,
-  racine);
-}
-
-
-
-
 injectTapEventPlugin();
-ReactDOM.render(
-  <MuiThemeProvider muiTheme={muiTheme}>
-    <div>
-      <TSN_AppBar
-        selectTableConfig={selectTableConfig}
-        selectTableTirage={selectTableTirage}
-      />
-      <TSN_TableConfig users={userList}/>
-    </div>
-  </MuiThemeProvider>,
-racine);
+var racine = document.getElementById('app');
+ReactDOM.render(<MuiThemeProvider muiTheme={muiTheme}><TSN_Global /></MuiThemeProvider>, racine);
